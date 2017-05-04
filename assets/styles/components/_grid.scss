@@ -1,0 +1,19 @@
+// Grid system
+.main {
+  @include make-sm-column($main-sm-columns);
+  .sidebar-primary & {
+    @include make-sm-column($main-sm-columns - $sidebar-sm-columns);
+    @media ( min-width: $screen-md-min) {
+      padding-right: 35px;
+    }
+  }
+}
+.sidebar {
+  @include make-sm-column($sidebar-sm-columns);
+  @media ( min-width: $screen-sm-min) {
+      padding-left: 35px;
+  }
+  @media ( min-width: $screen-md-min) {
+    padding-left: 60px;
+  }
+}

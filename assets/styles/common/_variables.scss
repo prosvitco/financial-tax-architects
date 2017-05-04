@@ -1,0 +1,143 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    3;
+
+// Colors
+$brand-primary:         #4CAF50;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$font-family-headings:    "Cinzel", Helvetica, Arial, sans-serif;
+
+$font-family-navbar: 	  $font-family-headings;
+
+$font-family-base:        $font-family-serif !default;
+
+$font-size-base:          15px !default;
+$font-size-large:         15px !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.2)) !default; // ~33px
+$font-size-h2:            floor(($font-size-base * 2)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.819 !default; // used to be 1.428571429 - 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    $font-family-headings !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                400 !default;
+
+$btn-default-color:              #333 !default;
+$btn-default-bg:                 #fff !default;
+$btn-default-border:             #ccc !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         30px !default;
+$btn-border-radius-large:        30px !default;
+$btn-border-radius-small:        30px !default;
+
+
+// Widgets
+$brand-color:           #ff0000;
+
+$body-background:		#efefef;
+
+$color-title:           #000000;
+$color-text:            #4D4D4D;
+$color-second:			#E5E5E5;
+
+
+$font-title:            'Montserrat';
+$font-text:             'SF-UI-Display';
+$font-second:			'Georgia';
+
+
+$logo-width:            337px;
+$logo-color:			#fff;
+$logo-font:				'Montserrat';
+
+
+$header-bg: 			#1a1a1a;
+$header-height: 		100px;
+$header-alpha:			30%;
+
+
+$menu-font:            'SF-UI-Display';
+$menu-font-size:        14px;
+$menu-space:			10px;
+$menu-color:			#000000;
+$menu-color-sub:		#ffffff;
+$menu-bg:				#fff;
+$menu-bg-sub:			#000000;
+
+
+$topbar-bg:				transparent;
+$topbar-color:			$menu-color;
+$topbar-font:			$menu-font;
+$topbar-font-size:		13px;
+$topbar-height:			70px;
+$topbar-fontz:			normal 300 12px/1.8em Roboto;
+
+
+$pm-bg:					#f9f9f9;
+$pm-color:				#000;
+$pm-width: 				340px;
+
+$img-path:				'';
+$content-font-size:		14px;
+$content-line-height:	28px;
+$content-bg-color:		#fff;
+
+
+$footer-font-title:		'SF-UI-Display';
+$footer-font-text:		'SF-UI-Display';
+$footer-title-size:		14px;
+$footer-text-size:		$content-font-size;
+$footer-bg:             #1a1a1a;
+$footer-color:          #949494;
+
+
+$sub-footer-bg:			#1a1a1a;
+$sub-footer-color:		#414141;
+$sub-footer-font:		'Montserrat';
+
+$page-title-background:  #ffffff;
+$page-title-color:       #000;
+
+$color-1: 				#f84432;
+$color-2: 				#1976d2;
+$color-3: 				#ffa018;
+$color-4: 				#505050;
+$color-5:				#ffff00;
+$color-6:				#e72971;

@@ -1,0 +1,21 @@
+body {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.wrap {
+  &.container {
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+}
+
+a, .btn {
+  @include transition;
+}
+
+.btn {
+    font-family: $font-family-headings;
+    padding: 12px 48px;
+    min-width: 250px;
+}

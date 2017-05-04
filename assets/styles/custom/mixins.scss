@@ -1,0 +1,73 @@
+@mixin transition($property: all, $duration: 0.25s, $animation: ease){
+    -webkit-transition: $property $duration $animation;
+    -moz-transition: $property $duration $animation;
+    -ms-transition: $property $duration $animation;
+    -o-transition: $property $duration $animation;
+    transition: $property $duration $animation;
+}
+
+
+@mixin transition-duration($value){
+    -webkit-transition-duration: $value;
+    -moz-transition-duration: $value;
+    -ms-transition-duration: $value;
+    -o-transition-duration: $value;
+    transition-duration: $value;
+}
+
+@mixin animation-duration($value){
+    -webkit-animation-duration: $value;
+    -moz-animation-duration: $value;
+    -ms-animation-duration: $value;
+    -o-animation-duration: $value;
+    animation-duration: $value;
+}
+
+
+@mixin translateX($x: -50%){
+    -webkit-transform: translateX($x);
+    -moz-transform: translateX($x);
+    -ms-transform: translateX($x);
+    -o-transform: translateX($x);
+    transform: translateX($x);
+}
+@mixin translateY($y: -50%){
+    -webkit-transform: translateY($y);
+    -moz-transform: translateY($y);
+    -ms-transform: translateY($y);
+    -o-transform: translateY($y);
+    transform: translateY($y);
+}
+@mixin translate($x: -50%, $y: -50%){
+    -webkit-transform: translateX($x) translateY($y);
+    -moz-transform: translateX($x) translateY($y);
+    -ms-transform: translateX($x) translateY($y);
+    -o-transform: translateX($x) translateY($y);
+    transform: translateX($x) translateY($y);
+}
+
+@mixin transform($value){
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -ms-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+
+
+@mixin size($width){
+    width: $width;
+}
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+}
+
+
+@mixin transform-origin($x: 0px, $y: 0px){
+    -webkit-transform-origin: $x $y;
+    -moz-transform-origin: $x $y;
+    -ms-transform-origin: $x $y;
+    -o-transform-origin: $x $y;
+    transform-origin: $x $y;
+}
